@@ -24,6 +24,7 @@ jobs:
       - run: npm i
       - run: npm run format:check
       - run: npm run lint
+      - run: npm run test
       - run: npm run build
       - name: Deploy to web-tooling-darian-svelte.surge.sh
         uses: dswistowski/surge-sh-action@v1

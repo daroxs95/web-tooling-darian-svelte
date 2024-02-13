@@ -19,6 +19,12 @@ The project is built with the following technologies:
 
 To get started, clone the repository and run the following commands:
 
+Initialize submodules:
+
+```bash
+git submodule update --init --recursive
+```
+
 ```bash
 npm install
 ```

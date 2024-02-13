@@ -83,7 +83,7 @@ input:focus-visible {
   border-color: #646cff;
 }
 
-@media (prefers-color-scheme: light) {
+[data-theme="light"] {
   :root {
     color: #213547;
     background-color: #ffffff;

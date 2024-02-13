@@ -6,6 +6,6 @@
   <h1>Web Tooling</h1>
 
   <div class="card">
-    <Todo />
+    <Todo title="Test"/>
   </div>
 </main>

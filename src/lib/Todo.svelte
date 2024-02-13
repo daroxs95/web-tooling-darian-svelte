@@ -2,6 +2,8 @@
   let tasks = [];
   let newTask = "";
 
+  export let title = "To-Do List";
+
   function addTask(event) {
     event.preventDefault();
     if (newTask.trim() !== "") {
@@ -31,7 +33,7 @@
 </script>
 
 <div>
-  <h2>To-Do List</h2>
+  <h2>{title}</h2>
 
   <form on:submit={addTask}>
     <input bind:value={newTask} placeholder="Add a new task" />

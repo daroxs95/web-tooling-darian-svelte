@@ -1,11 +1,18 @@
 :root {
+  --primary: #F4BDB9;
+  --bg: #282828;
+  --secondary: #FABD2F;
+  --highlight: #C3E0DA;
+  --bg-dark: #1a1a1a;
+  --text: #f5f5f5;
+
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color-scheme: dark;
+  color: var(--text);
+  background-color: var(--bg);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,11 +22,11 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: var(--primary);
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: var(--secondary);
 }
 
 body {
@@ -53,12 +60,12 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: var(--bg-dark);
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: var(--primary);
 }
 button:focus,
 button:focus-visible {
@@ -72,7 +79,6 @@ input {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  /*background-color: #f0f0f0;*/
   transition: border-color 0.25s;
   margin-bottom: 0.5em;
 }
@@ -80,5 +86,5 @@ input {
 input:focus,
 input:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-  border-color: #646cff;
+  border-color: var(--primary);
 }

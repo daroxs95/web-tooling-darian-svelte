@@ -19,7 +19,8 @@
     <platform name="android">
         <allow-intent href="market:*" />
         <preference name="android-minSdkVersion" value="22" />
-        <splash src="res/splash.png" density="land-hdpi"/>
+        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="icon.png" />
+        <resource-file src="res/android/xml/colors.xml" target="res/android/xml/colors.xml" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />

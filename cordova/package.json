@@ -1,8 +1,8 @@
 {
-  "name": "io.daro.web-tooling-svelte",
-  "displayName": "Web tooling with Svelte",
+  "name": "io.daro.sort_me_out",
+  "displayName": "Sort me out",
   "version": "1.0.0",
-  "description": "Simple app",
+  "description": "Sort me out the quick todo list",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

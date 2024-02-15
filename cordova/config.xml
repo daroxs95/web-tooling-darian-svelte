@@ -19,9 +19,11 @@
     <platform name="android">
         <allow-intent href="market:*" />
         <preference name="android-minSdkVersion" value="22" />
+        <splash src="res/splash.png" density="land-hdpi"/>
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
+        <splash src="res/splash.png" width="2732" height="2732"/>
     </platform>
 </widget>

@@ -70,3 +70,8 @@ Latest storybook can be found [here](https://web-tooling-darian-svelte-storybook
 ## Releasing android app
 
 Creating a release in github triggers an action to release the android app based on cordova.
+
+## Roadmap
+- [ ] Add custom color to mobile app statusbar
+- [ ] Fix android app icon
+- [ ] Set dark background and fixed icon in the splash screen

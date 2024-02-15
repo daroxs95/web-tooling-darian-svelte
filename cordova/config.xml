@@ -20,7 +20,7 @@
         <allow-intent href="market:*" />
         <preference name="android-minSdkVersion" value="22" />
         <preference name="AndroidWindowSplashScreenAnimatedIcon" value="icon.png" />
-        <resource-file src="res/android/xml/colors.xml" target="res/android/xml/colors.xml" />
+        <preference name="AndroidWindowSplashScreenIconBackgroundColor" value="#282828" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />

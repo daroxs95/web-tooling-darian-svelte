@@ -47,10 +47,10 @@
     "vitest": "^1.2.2"
   },
   "lint-staged": {
-    "*.{js, jsx,ts,tsx,mjs}": [
+    "*.{js, jsx,ts,tsx,mjs,svelte}": [
       "eslint --cache --quiet --fix"
     ],
-    "*.{json,js,ts,jsx,tsx,html,mjs}": [
+    "*.{json,js,ts,jsx,tsx,html,mjs,svelte}": [
       "prettier --write --ignore-unknown"
     ]
   }

@@ -1,0 +1,26 @@
+<svg
+  width="27"
+  height="26"
+  viewBox="0 0 27 26"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <line
+    x1="2.82843"
+    y1="2.625"
+    x2="23.0694"
+    y2="22.8659"
+    stroke="#5D5D5D"
+    stroke-width="4"
+    stroke-linecap="round"
+  />
+  <line
+    x1="3.06934"
+    y1="22.8659"
+    x2="23.3103"
+    y2="2.62498"
+    stroke="#5D5D5D"
+    stroke-width="4"
+    stroke-linecap="round"
+  />
+</svg>

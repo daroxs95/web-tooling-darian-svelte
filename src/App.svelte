@@ -25,7 +25,7 @@
   });
 </script>
 
-<main>
+<main id="home">
   {#if selectedList}
     <div class="view">
       <Todo
@@ -45,11 +45,11 @@
           0
         )}
       />
-      <div class="bottom">
+      <a class="bottom" href="#lists">
         <ArrowDown />
-      </div>
+      </a>
     </Home>
-    <div class="lists">
+    <div id="lists" class={`lists ${lists.length > 0 ? "no_empty" : ""}`}>
       {#each lists as list}
         <button
           class="list"
@@ -75,12 +75,16 @@
           <Add />
         </ItemProgress>
       </button>
+      <a class="bottom upside_down" href="#home">
+        <ArrowDown />
+      </a>
     </div>
   {/if}
 </main>
 
 <style>
   .lists {
+    position: relative;
     display: flex;
     gap: 6rem;
     flex-direction: column;
@@ -90,17 +94,17 @@
     min-height: 100vh;
   }
 
-  .list:nth-child(even) {
+  .lists.no_empty .list:nth-child(even) {
     margin-left: 6rem;
   }
 
-  .list:nth-child(odd) {
+  .lists.no_empty .list:nth-child(odd) {
     margin-right: 6rem;
   }
 
   .bottom {
     position: absolute;
-    bottom: 0;
+    bottom: 1rem;
   }
 
   .view {
@@ -110,5 +114,9 @@
     flex-direction: column;
     width: 100vw;
     min-height: 100vh;
+  }
+
+  .upside_down {
+    transform: rotate(180deg);
   }
 </style>

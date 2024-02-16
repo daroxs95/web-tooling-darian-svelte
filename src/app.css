@@ -41,6 +41,10 @@ a:hover {
   color: var(--secondary);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   display: flex;

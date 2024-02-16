@@ -1,34 +1,20 @@
 <svg
-  width="360"
-  height="299"
-  viewBox="0 0 360 299"
+  width="82"
+  height="45"
+  viewBox="0 0 82 45"
   fill="none"
   xmlns="http://www.w3.org/2000/svg"
 >
   <path
-    d="M179 243L141 202"
+    d="M40 43L2 2"
     stroke="#F4BDB9"
     stroke-width="4"
     stroke-linecap="round"
   />
   <path
-    d="M179.467 242.169L218.995 202.64"
+    d="M40.4669 42.1687L79.9953 2.64023"
     stroke="#F4BDB9"
     stroke-width="4"
     stroke-linecap="round"
   />
-  <g filter="url(#filter0_f_0_12)">
-    <path
-      d="M179 243L141 202"
-      stroke="#F4BDB9"
-      stroke-width="4"
-      stroke-linecap="round"
-    />
-    <path
-      d="M179.467 242.169L218.995 202.64"
-      stroke="#F4BDB9"
-      stroke-width="4"
-      stroke-linecap="round"
-    />
-  </g>
 </svg>

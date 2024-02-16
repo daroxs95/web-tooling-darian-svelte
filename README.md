@@ -72,6 +72,10 @@ Latest storybook can be found [here](https://web-tooling-darian-svelte-storybook
 Creating a release in github triggers an action to release the android app based on cordova.
 
 ## Roadmap
+
 - [ ] Add custom color to mobile app statusbar
 - [ ] Fix android app icon
 - [ ] Set dark background and fixed icon in the splash screen
+- [ ] Properly handle view navigation and usage of back and forward native event (including scroll position restoration)
+- [ ] Properly style the todo list manage view
+- [ ] Improve UX (gestures, modal confirmations, etc.)

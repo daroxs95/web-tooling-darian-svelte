@@ -99,3 +99,7 @@ input:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
   border-color: var(--primary);
 }
+
+#app {
+  overflow-x: hidden;
+}

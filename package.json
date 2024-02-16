@@ -50,7 +50,7 @@
     "*.{js, jsx,ts,tsx,mjs,svelte}": [
       "eslint --cache --quiet --fix"
     ],
-    "*.{json,js,ts,jsx,tsx,html,mjs,svelte}": [
+    "*.{json,js,ts,jsx,tsx,html,mjs,svelte,css}": [
       "prettier --write --ignore-unknown"
     ]
   }

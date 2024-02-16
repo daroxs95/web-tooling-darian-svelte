@@ -91,6 +91,7 @@
     justify-content: center;
     align-items: center;
     margin: 6rem 0;
+    padding-bottom: 10rem;
     min-height: 100vh;
   }
 
